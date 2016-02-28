@@ -47,3 +47,6 @@
 1.1.5: !!! This is an important update that contains breaking changes. MyCalendar will now be using Passage Permission Keys for permissions and you will need to install the plugin using code "kurtjensen.passage" if you use permissions for your events. If you do not install Passage Permission Keys plugin then your protected events may not show or may be visible to anyone who visits your site until you do add PassagePermission Keys plugin. This update also added raw data element to event array and applied config date/time to all components.
 1.1.6: Added messageURL() to enable Author Notices
 1.1.7: Added Backend Settings Permissions
+1.1.8:
+    - Added fields excerpt, multidate, excluded, allday, thru, recur
+    - add_event_fields.php
