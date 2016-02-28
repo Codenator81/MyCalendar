@@ -55,9 +55,9 @@ class Event extends Model
     ];
 
     public $attributes = [
-        'day' => '',
-        'month' => '',
-        'year' => '',
+        'day' => 0,
+        'month' => 0,
+        'year' => 0,
         'human_time' => '',
         'carbon_time' => '',
         'owner_name' => '',
